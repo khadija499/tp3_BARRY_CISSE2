@@ -6,4 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
+   <TextView
+        android:id="@+id/previousChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous avez choisi la porte : "
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Voulez-vous garder votre choix?"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="249dp">
+
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#020202"
+            android:onClick="onClick"
+            android:text="Je garde"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <Button
+            android:id="@+id/no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#F44336"
+            android:onClick="onClick"
+            android:text="Je change"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="238dp" />
+    </LinearLayout>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

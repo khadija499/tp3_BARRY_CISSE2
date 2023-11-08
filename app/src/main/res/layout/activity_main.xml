@@ -21,16 +21,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Faites un choix !" />
+            android:text="Choisissez une porte " />
 
-        <Button
-            android:id="@+id/apropos"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="@color/black"
-            android:onClick="onClick"
-            android:text="A PROPOS" />
     </LinearLayout>
 
     <LinearLayout
@@ -67,6 +59,15 @@
             android:text="3" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/apropos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/black"
+        android:onClick="onClick"
+        android:text="A PROPOS" />
 
 </LinearLayout>
 
